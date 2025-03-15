@@ -18,6 +18,8 @@ function loginAluno() {
     
     if (aluno) {
         alert('Login bem-sucedido!');
+        window.location.href = "aluno/aluno.html";
+
         document.getElementById('login-container').style.display = 'none';
         document.getElementById('area-aluno').style.display = 'block';
     
@@ -44,6 +46,7 @@ function loginBibliotecario() {
     
     if (usuario === 'bibliotecario' && senha === 'autorizado1234') {
         alert('Login bem-sucedido!');
+        window.location.href = "bibliotecario/bibliotecaro.html";
         document.getElementById('login-container').style.display = 'none';
         document.getElementById('area-bibliotecario').style.display = 'block';
     } else {
