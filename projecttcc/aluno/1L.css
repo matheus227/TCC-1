@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 10px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2, h3 {
+    color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}

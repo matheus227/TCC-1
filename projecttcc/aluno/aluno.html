@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALUNO</title>
+    <link rel="stylesheet" href="1L.css">
+</head>
+<body>
+    <section id="area-aluno" style="display: none;">
+        <h2>Área do Aluno</h2>
+        <div id="livros-disponiveis">
+            <h3>Livros Disponíveis</h3>
+            <div id="lista-livros"></div>
+        </div>
+        <div id="historico-emprestimos">
+            <h3>Histórico de Empréstimos</h3>
+            <ul id="lista-emprestimos"></ul>
+        </div>
+        <div id="sugestoes">
+            <h3>Sugestão de Livros</h3>
+            <input type="text" id="sugestao-livro" placeholder="Digite sua sugestão">
+            <button onclick="enviarSugestao()">Enviar</button>
+        </div>
+        <input type="text" id="pesquisa-livro" placeholder="Pesquisar livro">
+        <button onclick="pesquisarLivro()">Buscar</button>
+    </section>
+
+     <!--<script src="al.js"></script>-->
+
+
+</body>
+</html>
