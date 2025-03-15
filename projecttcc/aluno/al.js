@@ -16,3 +16,5 @@ function enviarSugestao() {
     localStorage.setItem('sugestoes', JSON.stringify(sugestoes));
     alert('Sugestão enviada!');
 }
+
+console.log()

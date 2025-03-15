@@ -22,3 +22,5 @@ function registrarEmprestimo() {
     localStorage.setItem('emprestimos', JSON.stringify(emprestimos));
     alert('Empréstimo registrado!');
 }
+
+console.log()

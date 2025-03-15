@@ -46,7 +46,7 @@ function loginBibliotecario() {
     
     if (usuario === 'bibliotecario' && senha === 'autorizado1234') {
         alert('Login bem-sucedido!');
-        window.location.href = "bibliotecario/bibliotecaro.html";
+        window.location.href = " bibliotecario/bibliotecario.html";
         document.getElementById('login-container').style.display = 'none';
         document.getElementById('area-bibliotecario').style.display = 'block';
     } else {
@@ -54,5 +54,5 @@ function loginBibliotecario() {
     }
 }
 
-
+console.log()
 
