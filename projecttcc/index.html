@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
- <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Escolar</title>
     <link rel="stylesheet" href="styles.css">
- </head>
- <body>
+</head>
+
+<body>
     <header>
         <h1>Biblioteca Escolar</h1>
         <nav>
@@ -14,7 +16,7 @@
             <button onclick="mostrarLogin('bibliotecario')">Área do Bibliotecário</button>
         </nav>
     </header>
-    
+
     <main id="login-container">
         <div id="login-aluno" class="login-form">
             <h2>Login do Aluno</h2>
@@ -22,12 +24,12 @@
             <input type="password" id="aluno-senha" placeholder="Senha">
 
             <div>
-                 <button onclick="loginAluno()">Entrar</button>
+                <button onclick="loginAluno()">Entrar</button>
             </div>
-            
+
             <p>Não tem uma conta? <a href="#" onclick="mostrarCadastroAluno()">Cadastre-se</a></p>
         </div>
-        
+
         <div id="cadastro-aluno" class="login-form" style="display: none;">
             <h2>Cadastro de Aluno</h2>
             <input type="text" id="novo-aluno-nome" placeholder="Nome Completo">
@@ -39,19 +41,20 @@
             </select>
             <button onclick="cadastrarAluno()">Cadastrar</button>
         </div>
-        
+
         <div id="login-bibliotecario" class="login-form" style="display: none;">
             <h2>Login do Bibliotecário</h2>
             <input type="text" id="bibliotecario-usuario" placeholder="Usuário">
             <input type="password" id="bibliotecario-senha" placeholder="Senha">
 
             <div>
-                 <button onclick="loginBibliotecario()">Entrar</button>
+                <button onclick="loginBibliotecario()">Entrar</button>
             </div>
-           
+
         </div>
     </main>
 
     <script src="script.js"></script>
- </body>
+</body>
+
 </html>

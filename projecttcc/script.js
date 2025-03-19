@@ -18,8 +18,9 @@ function loginAluno() {
     
     if (aluno) {
         alert('Login bem-sucedido!');
+      //  alert("teste")
         window.location.href = "aluno/aluno.html";
-
+     //   document.write("<h1>teste de aluno</h1>")
         document.getElementById('login-container').style.display = 'none';
         document.getElementById('area-aluno').style.display = 'block';
     
@@ -52,6 +53,13 @@ function loginBibliotecario() {
     } else {
         alert('Usuário ou senha incorretos!');
     }
+    //if(usuario === 'aluno1' && senha ==='aluno1'){
+    //    alert('Login bem-sucedido!!!!!!!');
+    //    window.location.href = "aluno/aluno.html";
+    //    document.getElementById('area-aluno').style.display = 'none';
+    //} else {
+    //    alert('usuário ou senha incorreta')
+   // }
 }
 
 console.log()
