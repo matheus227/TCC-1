@@ -9,13 +9,17 @@
 </head>
 
 <body>
-    <header>
+    <div id= "titulo">
         <h1>Biblioteca Escolar</h1>
+    </div>
+    
+    <div id="areas_container"> 
         <nav>
-            <button onclick="mostrarLogin('aluno')">Área do Aluno</button>
-            <button onclick="mostrarLogin('bibliotecario')">Área do Bibliotecário</button>
+            <button onclick="mostrarLogin('aluno')">Sou Aluno</button>
+            <button onclick="mostrarLogin('bibliotecario')">Sou Bibliotecário</button>
         </nav>
-    </header>
+        <p>Não tem uma conta? <a href="#" onclick="mostrarCadastroAluno()">Cadastre-se</a></p>
+    </div>
 
     <main id="login-container">
         <div id="login-aluno" class="login-form">
@@ -26,8 +30,6 @@
             <div>
                 <button onclick="loginAluno()">Entrar</button>
             </div>
-
-            <p>Não tem uma conta? <a href="#" onclick="mostrarCadastroAluno()">Cadastre-se</a></p>
         </div>
 
         <div id="cadastro-aluno" class="login-form" style="display: none;">
