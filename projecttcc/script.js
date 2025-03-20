@@ -1,9 +1,3 @@
-function mostrarLogin(tipo) {
-    document.getElementById('login-container').style.display = 'block';
-    document.getElementById('login-aluno').style.display = tipo === 'aluno' ? 'block' : 'none';
-    document.getElementById('login-bibliotecario').style.display = tipo === 'bibliotecario' ? 'block' : 'none';
-    document.getElementById('cadastro-aluno').style.display = 'none';
-}
 
 function mostrarCadastroAluno() {
     document.getElementById('login-aluno').style.display = 'none';
@@ -63,4 +57,19 @@ function loginBibliotecario() {
 }
 
 console.log()
+
+function mostrarLogin(tipo) {
+    // Oculta todos os formulários primeiro
+    document.getElementById('login-aluno').style.display = 'none';
+    document.getElementById('login-bibliotecario').style.display = 'none';
+    document.getElementById('cadastro-aluno').style.display = 'none';
+
+    // Mostra apenas o formulário correspondente ao tipo
+    if (tipo === 'aluno') {
+        document.getElementById('login-aluno').style.display = 'block';
+    } else if (tipo === 'bibliotecario') {
+        document.getElementById('login-bibliotecario').style.display = 'block';
+    }
+}
+
 

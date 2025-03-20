@@ -15,15 +15,17 @@
     
     <div id="areas_container"> 
         <nav>
-            <button onclick="mostrarLogin('aluno')">Sou Aluno</button>
+            <button onclick="mostrarLogin('aluno')">Sou Aluno</button><br>
             <button onclick="mostrarLogin('bibliotecario')">Sou Bibliotecário</button>
         </nav>
+        <br>
         <p>Não tem uma conta? <a href="#" onclick="mostrarCadastroAluno()">Cadastre-se</a></p>
     </div>
 
     <main id="login-container">
-        <div id="login-aluno" class="login-form">
+        <div id="login-aluno" class="login-form"  style="display: none;">
             <h2>Login do Aluno</h2>
+
             <input type="text" id="aluno-nome" placeholder="Nome Completo">
             <input type="password" id="aluno-senha" placeholder="Senha">
 
