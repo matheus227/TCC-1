@@ -25,8 +25,22 @@ body {
     position: relative;
     display:flex;
     justify-content:right;
-    left: 143vh;
+    left: 70vh;
+    text-align: center; /* Centraliza o texto */
+    max-width: 400vh; /* Ajuste conforme necessário */
+    margin: auto; /* Centraliza na tela */
+}
+
+#titulo2{
+    
+    display: flex;
+    justify-content: center;
+    position:absolute;
     text-align: center;
+    left: 50vh;
+    position: relative;
+    top: -5vh;
+
 }
 
 nav{
