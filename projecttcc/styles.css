@@ -7,25 +7,25 @@ body {
 
 #titulo{
     color: #fff; 
-    padding: 25px; /* Adiciona um espaçamento interno para não colar no canto */
+    padding: 4vh; /* Adiciona um espaçamento interno para não colar no canto */
     position: relative;
     display: flex;
     justify-content:right;
-    right: 130px;
+    right: 16vh;
 }
 
 
 #areas_container {
     background-color: #f68046;
-    padding: 20px;
-    margin-top: 60px;
-    border-radius: 20px;
-    width: 335px; /* Define a largura */
-    height: 325px; /* Define a altura */
+    padding: 5vh;
+    margin-top: 5vh;
+    border-radius: 4vh;
+    width: 50vh; /* Define a largura */
+    height: 50vh; /* Define a altura */
     position: relative;
     display:flex;
     justify-content:right;
-    left: 950px;
+    left: 143vh;
     text-align: center;
 }
 
@@ -34,29 +34,29 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: flex-end; /* Empurra o texto para baixo */
-    height: 250px; /* Defina uma altura para a div */
-    right: 40px;
+    height: 40vh; /* Defina uma altura para a div */
+    right: 5vh;
 }
 
 p{
     color: black; 
-    padding: 25px; /* Adiciona um espaçamento interno para não colar no canto */
+    padding: 4vh; /* Adiciona um espaçamento interno para não colar no canto */
     position: relative;
     display: flex;
     justify-content:right;
-    right: 120px;
+    right: 13vh;
 
 }
 button {
     background-color: #fff;
     color: rgb(4, 10, 97);
     border: none;
-    padding: 10px 15px;
-    margin: 5px;
+    padding: 5vh 10vh;
+    margin: 1vh;
     cursor: pointer;
-    border-radius: 18px;
-    width: 270px; /* Define a largura */
-    height: 65px; /* Define a altura */
+    border-radius: 3vh;
+    width: 40vh; /* Define a largura */
+    height: 12vh; /* Define a altura */
 }
 
 button:hover {
