@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: 	#000080;
+    background-color: 	#2a386d;
     margin: 0;
     padding: 0;
 }
@@ -11,40 +11,52 @@ body {
     position: relative;
     display: flex;
     justify-content:right;
-    right: 110px;
+    right: 130px;
 }
 
+
 #areas_container {
-    background-color: #D2691E;
+    background-color: #f68046;
     padding: 20px;
     margin-top: 60px;
-    border-radius: 10px;
-    width: 360px; /* Define a largura */
-    height: 290px; /* Define a altura */
+    border-radius: 20px;
+    width: 335px; /* Define a largura */
+    height: 325px; /* Define a altura */
     position: relative;
     display:flex;
     justify-content:right;
-    left: 799px;
+    left: 950px;
+    text-align: center;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Empurra o texto para baixo */
+    height: 250px; /* Defina uma altura para a div */
+    right: 40px;
 }
 
 p{
-    
-}
+    color: black; 
+    padding: 25px; /* Adiciona um espaçamento interno para não colar no canto */
+    position: relative;
+    display: flex;
+    justify-content:right;
+    right: 120px;
 
-nav {
-    text-align: center;
-    margin-top: 10px;
-    
 }
-
 button {
-    background-color: #ff6600;
-    color: white;
+    background-color: #fff;
+    color: rgb(4, 10, 97);
     border: none;
     padding: 10px 15px;
     margin: 5px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 18px;
+    width: 270px; /* Define a largura */
+    height: 65px; /* Define a altura */
 }
 
 button:hover {
@@ -79,10 +91,6 @@ input, select {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2, h3 {
-    color: #0056b3;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -95,6 +103,4 @@ ul li {
     border-radius: 5px;
 }
 
-h1{
-    right: 100px;
-}
+

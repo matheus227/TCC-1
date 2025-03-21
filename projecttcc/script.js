@@ -47,13 +47,7 @@ function loginBibliotecario() {
     } else {
         alert('Usuário ou senha incorretos!');
     }
-    //if(usuario === 'aluno1' && senha ==='aluno1'){
-    //    alert('Login bem-sucedido!!!!!!!');
-    //    window.location.href = "aluno/aluno.html";
-    //    document.getElementById('area-aluno').style.display = 'none';
-    //} else {
-    //    alert('usuário ou senha incorreta')
-   // }
+    
 }
 
 console.log()
