@@ -1,11 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: 	#2a386d;
-    margin: 0;
-    padding: 0;
 }
 
-#titulo{
+.titulo{
+
     color: #fff; 
     padding: 4vh; /* Adiciona um espaçamento interno para não colar no canto */
     position: relative;
@@ -16,40 +15,42 @@ body {
 
 
 #areas_container {
+
     background-color: #f68046;
-    padding: 5vh;
-    margin-top: 5vh;
     border-radius: 4vh;
-    width: 50vh; /* Define a largura */
-    height: 50vh; /* Define a altura */
+    width: 52vh; /* Define a largura */
+    height: 55vh; /* Define a altura */
     position: relative;
-    display:flex;
-    justify-content:right;
-    left: 70vh;
-    text-align: center; /* Centraliza o texto */
-    max-width: 400vh; /* Ajuste conforme necessário */
-    margin: auto; /* Centraliza na tela */
+    left: 125vh;
 }
 
-#titulo2{
-    
-    display: flex;
+.titulo2{
+    white-space: nowrap; /* Impede a quebra de linha */
     justify-content: center;
-    position:absolute;
     text-align: center;
-    left: 50vh;
-    position: relative;
-    top: -5vh;
+    right: 5vh;
+    justify-content: flex-end; /* Empurra o texto para baixo */
 
+}
+
+.titulo3{
+    display: flex;
+    white-space: nowrap; /* Impede a quebra de linha */
+    max-width: 10vh;
+    margin-top: 5vh;
+    right: 25vh;
 }
 
 nav{
+
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end; /* Empurra o texto para baixo */
-    height: 40vh; /* Defina uma altura para a div */
-    right: 5vh;
+    height: 47vh; /* Defina uma altura para a div */
+    right: -5vh;
+    margin-top: -16vh;
+    
 }
 
 p{
@@ -58,10 +59,12 @@ p{
     position: relative;
     display: flex;
     justify-content:right;
-    right: 13vh;
+    right: 15vh;
 
 }
+
 button {
+
     background-color: #fff;
     color: rgb(4, 10, 97);
     border: none;
@@ -74,47 +77,50 @@ button {
 }
 
 button:hover {
+
     background-color: #e65c00;
 }
 
-.login-form {
-    background-color: white;
-    padding: 20px;
-    margin: 50px auto;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.login-estudante {
+
+    background-color: #f68046;
+    padding: 20vh;
+    margin: 80vh auto;
+    width: 100vh;
+    border-radius: 7vh;
+    height: 50vh;
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.1);
 }
 
 input, select {
-    width: calc(100% - 20px);
     padding: 8px;
-    margin: 10px 0;
-    display: block;
+    margin: 10px;
+    display: flex;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
+    width: 60vh;
+    height: 8vh;
+    right: 25vh;
 }
 
-#area-aluno, #area-bibliotecario {
-    display: none;
-    padding: 20px;
-    background-color: white;
-    width: 80%;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.login-biblioteca {
+
+    background-color: #f68046;
+    padding: 20vh;
+    margin: 80vh auto;
+    width: 100vh;
+    border-radius: 7vh;
+    height: 50vh;
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.1);
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.login-cadastrar {
+
+    background-color: #f68046;
+    padding: 20vh;
+    margin: 80vh auto;
+    width: 100vh;
+    border-radius: 7vh;
+    height: 50vh;
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.1);
 }
-
-ul li {
-    background-color: #eee;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-}
-
-
