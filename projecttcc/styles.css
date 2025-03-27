@@ -10,35 +10,17 @@ body {
     position: relative;
     display: flex;
     justify-content:right;
-    right: 16vh;
+    right: 21vh;
 }
-
 
 #areas_container {
-
     background-color: #f68046;
     border-radius: 4vh;
-    width: 52vh; /* Define a largura */
+    width: 53vh; /* Define a largura */
     height: 55vh; /* Define a altura */
     position: relative;
-    left: 125vh;
-}
-
-.titulo2{
-    white-space: nowrap; /* Impede a quebra de linha */
-    justify-content: center;
+    left: 135vh;
     text-align: center;
-    right: 5vh;
-    justify-content: flex-end; /* Empurra o texto para baixo */
-
-}
-
-.titulo3{
-    display: flex;
-    white-space: nowrap; /* Impede a quebra de linha */
-    max-width: 10vh;
-    margin-top: 5vh;
-    right: 25vh;
 }
 
 nav{
@@ -59,7 +41,7 @@ p{
     position: relative;
     display: flex;
     justify-content:right;
-    right: 15vh;
+    right: 25vh;
 
 }
 
