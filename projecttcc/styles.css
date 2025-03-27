@@ -4,34 +4,36 @@ body {
 }
 
 .titulo{
-
     color: #fff; 
     padding: 4vh; /* Adiciona um espaçamento interno para não colar no canto */
     position: relative;
     display: flex;
     justify-content:right;
-    right: 21vh;
+    right: 18vh;
 }
 
 #areas_container {
     background-color: #f68046;
     border-radius: 4vh;
-    width: 53vh; /* Define a largura */
-    height: 55vh; /* Define a altura */
+    width: 60vh; /* Define a largura */
+    height: 60vh; /* Define a altura */
     position: relative;
     left: 135vh;
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
-nav{
 
+
+nav{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end; /* Empurra o texto para baixo */
     height: 47vh; /* Defina uma altura para a div */
-    right: -5vh;
-    margin-top: -16vh;
+    right: -9vh;
+    margin-top: -14vh;
     
 }
 
@@ -41,7 +43,7 @@ p{
     position: relative;
     display: flex;
     justify-content:right;
-    right: 25vh;
+    right: 19vh;
 
 }
 
