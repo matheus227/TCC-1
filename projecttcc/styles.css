@@ -1,30 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: 	#2a386d;
+    background-color: #17224d;
 }
 
 .titulo{
     color: #fff; 
-    padding: 4vh; /* Adiciona um espaçamento interno para não colar no canto */
+    padding: 2vh; /* Adiciona um espaçamento interno para não colar no canto */
     position: relative;
     display: flex;
     justify-content:right;
-    right: 18vh;
+    right: 22vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #areas_container {
     background-color: #f68046;
     border-radius: 4vh;
-    width: 60vh; /* Define a largura */
-    height: 60vh; /* Define a altura */
+    width: 65vh; /* Define a largura */
+    height:70vh; /* Define a altura */
     position: relative;
-    left: 135vh;
+    left: 114vh;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    color:#0f1944;
+   
 }
-
-
 
 nav{
     position: relative;
@@ -32,8 +32,10 @@ nav{
     flex-direction: column;
     justify-content: flex-end; /* Empurra o texto para baixo */
     height: 47vh; /* Defina uma altura para a div */
-    right: -9vh;
-    margin-top: -14vh;
+    right: -6vh;
+    margin-top: -1vh;
+    text-align: left;
+    font-family:Sans-serif;
     
 }
 
@@ -43,37 +45,41 @@ p{
     position: relative;
     display: flex;
     justify-content:right;
-    right: 19vh;
-
+    right: 25vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button {
 
     background-color: #fff;
-    color: rgb(4, 10, 97);
+    color: rgb(21, 25, 90);
     border: none;
     padding: 5vh 10vh;
     margin: 1vh;
     cursor: pointer;
-    border-radius: 3vh;
-    width: 40vh; /* Define a largura */
-    height: 12vh; /* Define a altura */
+    border-radius: 5vh;
+    width: 55vh; /* Define a largura */
+    height: 13vh; /* Define a altura */
+    font-family:sans-serif;
 }
 
 button:hover {
 
-    background-color: #e65c00;
+    background-color: #ff6600ad;
 }
 
 .login-estudante {
 
     background-color: #f68046;
     padding: 20vh;
-    margin: 80vh auto;
-    width: 100vh;
-    border-radius: 7vh;
+    margin:70vh auto;
+    width: 110vh;
+    border-radius: 8vh;
     height: 50vh;
     box-shadow: 0 0 10vh rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    
 }
 
 input, select {
@@ -82,9 +88,10 @@ input, select {
     display: flex;
     border: 1px solid #ccc;
     border-radius: 15px;
-    width: 60vh;
-    height: 8vh;
+    width: 95vh;
+    height: 9vh;
     right: 25vh;
+   justify-content: center;
 }
 
 .login-biblioteca {
