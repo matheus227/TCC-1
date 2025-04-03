@@ -15,11 +15,11 @@ body {
 
 #areas_container {
     background-color: #f68046;
-    border-radius: 30vh;
+    border-radius: 4vh;
     width: 65vh; /* Define a largura */
     height:70vh; /* Define a altura */
     position: relative;
-    left: 114vh;
+    left: 125vh;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#0f1944;
@@ -45,8 +45,12 @@ p{
     position: relative;
     display: flex;
     justify-content:right;
-    right: 25vh;
+    right: 28vh;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tituloh2{
+    top:10vh;
 }
 
 button {
@@ -68,6 +72,7 @@ button:hover {
     background-color: #ff6600ad;
 }
 
+
 .login-estudante {
 
     background-color: #f68046;
@@ -77,10 +82,9 @@ button:hover {
     border-radius: 8vh;
     height: 50vh;
     box-shadow: 0 0 10vh rgba(0, 0, 0, 0.1);
-    text-align: center;
-    
-    
+
 }
+
 
 input, select {
     padding: 8px;
