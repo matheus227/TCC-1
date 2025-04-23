@@ -16,15 +16,16 @@ body {
 #areas_container {
     background-color: #f68046;
     border-radius: 4vh;
-    width: 65vh; /* Define a largura */
-    height:70vh; /* Define a altura */
-    position: relative;
+    width: 65vh;
+    height: 70vh;
+    position: relative; /* Mantém relative para permitir posicionamento absoluto do filho */
     left: 125vh;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#0f1944;
-   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0f1944;
+    margin-bottom: 10vh; /* Adiciona espaço abaixo do container para o h5 */
 }
+
 
 nav{
     position: relative;
@@ -33,19 +34,19 @@ nav{
     justify-content: flex-end; /* Empurra o texto para baixo */
     height: 47vh; /* Defina uma altura para a div */
     right: -6vh;
-    margin-top: -1vh;
+    margin-top: -6vh;
     text-align: left;
     font-family:Sans-serif;
     
 }
 
 p{
-    color: black; 
-    padding: 4vh; /* Adiciona um espaçamento interno para não colar no canto */
+    color: #17224d; 
+    padding: 2vh; /* Adiciona um espaçamento interno para não colar no canto */
     position: relative;
     display: flex;
     justify-content:right;
-    right: 28vh;
+    right: 11vh;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -65,12 +66,26 @@ button {
     width: 55vh; /* Define a largura */
     height: 13vh; /* Define a altura */
     font-family:sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+
 }
 
 button:hover {
 
     background-color: #ff6600ad;
 }
+
+h5 {
+    color: #ccc;
+    text-align: center;
+    position: relative; /* Permite ajustar a posição */
+    left: 125vh; /* Alinha com o container (mesmo left) */
+    width: 65vh; /* Mesma largura do container */
+    margin-top: -4vh; /* Espaço entre o container e o h5 */
+    font-size: medium;
+}
+
 
 
 .login-estudante {
@@ -82,9 +97,12 @@ button:hover {
     border-radius: 8vh;
     height: 50vh;
     box-shadow: 0 0 10vh rgba(0, 0, 0, 0.1);
-
 }
 
+
+h3{
+    font-size: large;
+}
 
 input, select {
     padding: 8px;
@@ -95,7 +113,7 @@ input, select {
     width: 95vh;
     height: 9vh;
     right: 25vh;
-   justify-content: center;
+    justify-content: center;
 }
 
 .login-biblioteca {

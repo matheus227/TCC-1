@@ -15,21 +15,23 @@
     
     <div id="areas_container">  
             <h2>OLÁ, NOVAMENTE!</h2>
-            <h4>Escolha abaixo um perfil acessar.</h4>
+            <p>Escolha abaixo um perfil acessar<p>
         <nav>
             <h2>SOU</h2>
             <button onclick="mostrarLogin('aluno')"> ESTUDANTE</button>
             <h2>SOU</h2>
-            <button onclick="mostrarLogin('bibliotecario')">BiBLIOTECÁRIA(O)</button>
+            <button onclick="mostrarLogin('bibliotecario')">BIBLIOTECÁRIA(O)</button>
         </nav>
         
     </div>
 
-    <p>Não tem uma conta?<br> Cadastre-se agora <a href="#" onclick="mostrarCadastroAluno()">Cadastre-se</a></p>
+       
+        <h5>Não tem uma conta?<br> Cadastre-se agora <a href="#" onclick="mostrarCadastroAluno()">Cadastre-se</a></h5>
+    
 
     <main id="login-container">
         <div id="login-aluno" class="login-estudante"  style="display: none;">
-            <h2>Login do Aluno</h2>
+            <h3>Login do Aluno</h3>
 
             <input type="text" id="aluno-nome" placeholder="Nome Completo">
             <input type="password" id="aluno-senha" placeholder="Senha">
@@ -40,7 +42,7 @@
         </div>
 
         <div id="cadastro-aluno" class="login-cadastrar" style="display: none;">
-            <h2>Cadastro de Aluno</h2>
+            <h3>Cadastro de Aluno</h3>
             <input type="text" id="novo-aluno-nome" placeholder="Nome Completo">
             <input type="password" id="novo-aluno-senha" placeholder="Senha">
             <select id="aluno-serie">
@@ -52,7 +54,7 @@
         </div>
 
         <div id="login-bibliotecario" class="login-biblioteca" style="display: none;">
-            <h2>Login do Bibliotecário</h2>
+            <h3>Login do Bibliotecário</h3>
             <input type="text" id="bibliotecario-usuario" placeholder="Usuário">
             <input type="password" id="bibliotecario-senha" placeholder="Senha">
 
