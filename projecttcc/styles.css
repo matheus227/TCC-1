@@ -60,14 +60,13 @@ button {
     color: rgb(21, 25, 90);
     border: none;
     padding: 5vh 10vh;
-    margin: 1vh;
-    cursor: pointer;
     border-radius: 5vh;
     width: 55vh; /* Define a largura */
     height: 13vh; /* Define a altura */
     font-family:sans-serif;
     font-weight: bold;
     font-size: 1.1em;
+
 
 }
 
@@ -88,6 +87,11 @@ h5 {
 
 
 
+
+/*AREAS ALUNOS E BIBLIOTECARIO*/
+
+
+
 .login-estudante {
 
     background-color: #f68046;
@@ -101,20 +105,46 @@ h5 {
 
 
 h3{
-    font-size: large;
+    font-size: 5vh;
+    color:#0f1944;
+    text-align: center;
+    margin-top: -14vh;
+    
+
 }
 
-input, select {
+h4{
+    color:#0f1944;
+    text-align: center;
+    margin-top: -4vh;
+}
+
+
+input {
     padding: 8px;
-    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 94vh;
+    height: 9vh;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+
+select{
+    padding: 8px;
+    margin: 15px;
     display: flex;
     border: 1px solid #ccc;
     border-radius: 15px;
-    width: 95vh;
+    width: 94vh;
     height: 9vh;
-    right: 25vh;
     justify-content: center;
 }
+
+
+
 
 .login-biblioteca {
 
