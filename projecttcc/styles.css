@@ -50,9 +50,11 @@ p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 #tituloh2{
     top:10vh;
 }
+
 
 button {
 
@@ -66,9 +68,10 @@ button {
     font-family:sans-serif;
     font-weight: bold;
     font-size: 1.1em;
-
-
+    
 }
+
+
 
 button:hover {
 
